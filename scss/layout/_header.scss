@@ -1,0 +1,25 @@
+@import '../Util/variables';
+
+header {
+    background-color: $color-fondo;
+    display: flex;
+    padding: 1rem;
+    img{
+        width: 5rem;
+    }
+    nav {
+        
+        ul{
+            list-style-type: none;
+            display: $display-flex;
+        
+        li{ margin: 10px;
+            color: cadetblue;
+            a{
+                color: $color-texto;
+                text-decoration: none;
+                font-weight: bold;
+                font-size: $tamanoFuenteEnlace;
+            }}}}}
+        
+    
